@@ -1,0 +1,51 @@
+baseURL = "https://hibbie.net/"
+languageCode = "en-us"
+title = "Thomas Hibbard - Llama Afficianado and Sometimes Developer"
+theme = "split"
+
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+copyright = "&copy;2019 Thomas Hibbard"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Thomas Hibbard"
+  description = "Thomas Hibbard is web developer and consultant from Texas. "
+  shareImage = "static/sweet-dad-hat.jpg"
+  twitterHandle = "hibb"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "desertboi.jpg"
+      position = "center center"
+
+# Links List #1
+[[params.links]]
+  [params.links.list1]
+    heading = "Connect"
+
+    [[params.links.list1.link]]
+      text = "Github"
+      url = "https://github.com/hibbie/"
+
+    [[params.links.list1.link]]
+      text = "Gitlab"
+      url = "https://gitlab.com/hibbie/"
+
+    [[params.links.list1.link]]
+      text = "Twitter"
+      url = "https://twitter.com/hibb"
+
+    [[params.links.list1.link]]
+      text = "LinkedIn"
+      url = "https://www.linkedin.com/in/hibbie/"
+
