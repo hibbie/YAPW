@@ -1,6 +1,6 @@
 baseURL = "https://hibbie.net/"
 languageCode = "en-us"
-title = "Thomas Hibbard - Llama Aficianado and Sometimes Developer"
+title = "Thomas Hibbard - Llama Aficionado and Sometimes Developer"
 theme = "split"
 
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
